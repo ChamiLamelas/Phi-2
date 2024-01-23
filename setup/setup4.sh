@@ -20,7 +20,7 @@ python3.8 -m pip install -U pip
 
 # this first step is taken from here: https://pytorch.org/get-started/locally/
 python3.8 -m pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
-python3.8 -m pip install toml matplotlib tqdm pytz kaggle datasets
+python3.8 -m pip install toml matplotlib tqdm pytz kaggle datasets transformers
 git config --global user.name ChamiLamelas
 git config --global user.email chami.lamelas@gmail.com
-chmod +x testsetup.py 
+chmod +x testsetup.py ../src/*.py
